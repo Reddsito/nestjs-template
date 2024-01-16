@@ -1,0 +1,24 @@
+
+# Server
+STATE=development
+PORT=3000
+
+#Tokens
+JWT_ACCESS_SECRET=access-secret
+JWT_REFRESH_SECRET=refresh-secret
+
+# DATABASE
+DB_PASSWORD=password
+DB_NAME=dbName
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+
+
+
+# PRISMA
+DATABASE_URL="postgresql://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?schema=public"
+
+#PG_ADMIN
+PG_EMAIL=development@dev.com
+PG_PASSWORD=password
